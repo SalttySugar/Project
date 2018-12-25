@@ -1,0 +1,244 @@
+
+body{
+  font-family: sans-serif;
+}
+
+
+header {
+  padding: 20px 0px;
+}
+
+.hero-section
+{
+  width: 100%;
+  height: 700px;
+  background-image: url(phone.png);
+  background-size: cover;
+  border-bottom-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+  position: absolute;
+  top:0px;
+  z-index: -1;
+}
+
+li a
+{
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.logo{
+  float: left;
+  font-size: 28px;
+  color: #fff;
+
+}
+.logo h1 {
+  font-weight: bold;
+}
+
+.logo h1 span {
+  background-color: #fba419;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.main-nav{
+  float: right;
+  padding: 25px 0px;
+}
+
+.main-nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 35px;
+}
+.main-nav li a{
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* END OF HEADER*/
+
+.hero-container{
+  position: relative;
+  height: 680px;
+  width: 100%;
+}
+
+
+.hero-inner-container{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.hero-title
+{
+  font-family: Forte;
+  font-size: 30pt;
+  color: white;
+  text-align: center;
+}
+
+.hero-title-two
+{
+  text-align: center;
+  color: white;
+}
+
+.hero-description
+{
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+.hero-button
+{
+  background-color: white;
+  width: 125px;
+  height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 8px;
+  border: 1px solid #fff;
+  border-color: blue;
+}
+
+span{
+  display: inline;
+}
+
+.content-wrapper
+{
+  width: 65%;
+  margin: auto;
+}
+
+.flo-container
+{
+  position: relative;
+  top: 500px;
+  margin: 5%;
+  height: 355px;
+  background-color: white;
+  box-shadow: 0px 11px 52px -13px rgba(0,0,0,0.75);
+  border-radius: 7px;
+}
+
+.flo-image-one
+{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-size: cover;
+  background-image: url(flo-one.jpg);
+  height: 175px;
+}
+
+.flo-image-two
+{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-size: cover;
+  background-image: url(flo-two.jpg);
+  height: 175px;
+}
+
+.flo-image-three
+{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-size: cover;
+  background-image: url(flo-three.jpg);
+  height: 175px;
+}
+
+.head-line
+{
+  color: #333332;
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-box
+{
+  width: 80%;
+  margin: auto;
+}
+
+.flo-text
+{
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+  margin: 15px;
+}
+
+.flo-button
+{
+  color: white;
+  position: absolute;
+  background-image: url(gradient.jpg);
+  width: 125px;
+  height: 23px;
+  text-align: center;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 8px;
+  border: 1px solid #fff;
+  border-color: blue;
+  margin-left: 25%;
+  margin-top: 5px;
+}
+
+.we-section
+{
+  position: relative;
+  top:600px;
+  height: 400px;
+  width: 100%;
+  background-color: pink;
+}
+
+.A
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url("A.jpg");
+  background-size: auto;
+  background-position: center;
+}
+
+.A-text
+{
+  position: absolute;
+  width: 100%;
+  color: #000;
+  background: #fff;
+  mix-blend-mode: lighten;
+  font-family: Tw Cen Mt;
+  margin-top: -60px;
+  font-size: 500px;
+  padding-left: 32%;
+}
+
+.A-lap
+{
+  position: absolute;
+  top: -5px;
+  left: 42%;
+  font-size: 290px;
+}
